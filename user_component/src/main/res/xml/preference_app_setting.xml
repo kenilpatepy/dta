@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Application">
+        <Preference
+            android:key="app_version"
+            android:title="current version"
+            app:icon="@drawable/ic_app_setting_app_version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Settings">
+
+        <SwitchPreference
+            android:key="backup_domain_enable"
+            android:summary="You can try to open this configuration when you can't use the relevant services of the Dangdang network"
+            android:title="Alternate Server"
+            app:icon="@drawable/ic_language" />
+
+        <EditTextPreference
+            android:key="backup_domain_address"
+            android:title="Alternate server address"
+            app:icon="@drawable/ic_domain_url" />
+
+        <SwitchPreference
+            android:key="hide_file"
+            android:summary="When selecting files, display system hidden files"
+            android:title="Show hidden files"
+            app:icon="@drawable/ic_app_setting_hide_file" />
+
+        <SwitchPreference
+            android:key="splash_page"
+            android:title="Show APP startup page"
+            app:icon="@drawable/ic_app_setting_splash" />
+
+        <Preference
+            android:key="dark_mode"
+            android:title="Dark Mode"
+            app:icon="@drawable/ic_dark_mode_system" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Others">
+        <Preference
+            android:key="license"
+            android:title="Open Source License Agreement"
+            app:icon="@drawable/ic_app_setting_license" />
+        <Preference
+            android:key="about_us"
+            android:title="About us"
+            app:icon="@drawable/ic_app_setting_about_us" />
+    </PreferenceCategory>
+</PreferenceScreen>

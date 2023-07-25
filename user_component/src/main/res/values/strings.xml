@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">user_component</string>
+    <string name="text_copyright_cover">Author Iconfont-Wen Xuanmo</string>
+    <string name="tips_user_login">account login</string>
+    <string name="tips_input_account">account</string>
+    <string name="tips_input_password">Password</string>
+    <string name="action_user_register">New user registration</string>
+    <string name="action_user_forgot">Forgot account/password</string>
+    <string name="action_login">login</string>
+    <string name="tips_user_register">account registration</string>
+    <string name="tips_input_email">Email</string>
+    <string name="tips_input_screen_name">nickname</string>
+    <string name="action_register">Register</string>
+    <string name="tips_reset_password">*Please fill in the account number and email address you filled in during registration. If the information is correct, a new random password will be sent to the email address. This function can be used once every 2 minutes</string>
+    <string name="tips_retrieve_account">*Please fill in the email address you filled in during registration. If the email address is correct, the account information will be sent to the email address. This function can be used once every 10 minutes</string>
+    <string name="tips_user_follow_anime">My follower</string>
+    <string name="tips_user_cloud_histroy">play history</string>
+    <string name="text_default_count">--</string>
+    <string name="test_new_password">New password</string>
+    <string name="test_old_password">Old password</string>
+    <string name="tips_account_info">account information</string>
+    <string name="tips_account">Account:</string>
+    <string name="tips_screen_name">Nickname:</string>
+    <string name="text_edit_info">Edit</string>
+    <string name="tips_password">Password</string>
+    <string name="tips_security_info">Security Information</string>
+    <string name="action_exit_login">Exit login</string>
+    <string name="tips_login">login account</string>
+    <string name="action_player_setting">player settings</string>
+    <string name="action_scan_manager">Scan directory management</string>
+    <string name="action_bilibili_danmu_download">BiliBili bullet screen download</string>
+    <string name="action_shooter_subtitle_download">Shooter (pseudo) subtitle download</string>
+    <string name="action_screencast_receiver">screencast receiver</string>
+    <string name="action_app_setting">Application Settings</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_cache_manager">cache directory management</string>
+    <string name="text_system_cache">system cache</string>
+    <string name="text_file_cache">File cache</string>
+    <string name="text_player_cache">Video playback cache</string>
+    <string name="text_screen_shot_cache">Video screenshot cache</string>
+    <string name="text_other_cache">Other cache</string>
+    <string name="tips_extend_folder">When scanning video data, the APP will additionally scan the following folders</string>
+    <string name="tips_filter_folder">When scanning video data, APP will hide the blocked folder</string>
+    <string name="action_add_extend_folder">Add folder</string>
+    <string name="action_select_url">Select Url</string>
+    <string name="text_qq">155452509</string>
+    <string name="text_email">xyoye1997@outlook.com</string>
+    <string name="tips_common_question">Common question feedback:</string>
+    <string name="tips_feedback_channels">Feedback contact information:</string>
+    <string name="tips_qq">Q Q:</string>
+    <string name="action_copy_qq">Copy</string>
+    <string name="tips_email">Email:</string>
+    <string name="action_send_email">Send email</string>
+    <string name="tips_other_channels">Other:</string>
+    <string name="tips_github_issues">GitHub Issues</string>
+    <string name="action_edit_issues">Edit</string>
+    <string name="text_app_name">Dandan play concept version</string>
+    <string name="text_github_project_name">Github: DanDanPlayForAndroid</string>
+    <string name="text_official_address">Official website: www.dandanplay.com</string>
+    <string name="action_save_theme">Complete</string>
+    <string name="text_theme_follow_system">follow the system</string>
+    <string name="tips_theme_follow_system">After opening, it will follow the system to open or close the dark mode</string>
+    <string name="tips_theme_manual_switch">Manual selection</string>
+    <string name="text_theme_normal_mode">Normal Mode</string>
+    <string name="text_theme_dark_mode">Dark Mode</string>
+    <string name="tips_commonly_folder_1">Common folder 1</string>
+    <string name="tips_commonly_folder_2">Common folder 2</string>
+    <string name="tips_last_choose_folder">The last choice directory</string>
+    <string name="tips_current_open_folder">Open directory this time</string>
+    <string name="action_commonly_folder_manager">Common directory management</string>
+    <string name="tips_screencast_receiving">Running</string>
+
+    <integer-array name="cover">
+        <item>@drawable/ic_bailitusu</item>
+        <item>@drawable/ic_baoqingtian</item>
+        <item>@drawable/ic_baiqian</item>
+        <item>@drawable/ic_baisuzhen</item>
+        <item>@drawable/ic_dongfangbubai</item>
+        <item>@drawable/ic_huawuque</item>
+        <item>@drawable/ic_lindaiyu</item>
+        <item>@drawable/ic_linshiyin</item>
+        <item>@drawable/ic_lixunhuan</item>
+        <item>@drawable/ic_meichangsu</item>
+        <item>@drawable/ic_longkui</item>
+        <item>@drawable/ic_niexiaoqian</item>
+        <item>@drawable/ic_ouyangshaogong</item>
+        <item>@drawable/ic_tangseng</item>
+        <item>@drawable/ic_nihuang</item>
+        <item>@drawable/ic_zhenhuan</item>
+        <item>@drawable/ic_xiaopingjing</item>
+        <item>@drawable/ic_zhanzhao</item>
+        <item>@drawable/ic_ziwei</item>
+        <item>@drawable/ic_zixuan</item>
+    </integer-array>
+
+    <string-array name="cover_name">
+        <item>Baili Tusu</item>
+        <item>Bao Qingtian</item>
+        <item>White light</item>
+        <item>Bai Suzhen</item>
+        <item>Invincible in the East</item>
+        <item>Hua Wuque</item>
+        <item>Lin Daiyu</item>
+        <item>Lin Shiyin</item>
+        <item>Li Xunhuan</item>
+        <item>Mei Changsu</item>
+        <item>Solanum</item>
+        <item>Nie Xiaoqian</item>
+        <item>Ouyang Shaogong</item>
+        <item>Tang Monk</item>
+        <item>Nihuang</item>
+        <item>Zhen Huan</item>
+        <item>Xiao Pingjing</item>
+        <item>Zhan Zhao</item>
+        <item>crape myrtle</item>
+        <item>Zi Xuan</item>
+    </string-array>
+</resources>

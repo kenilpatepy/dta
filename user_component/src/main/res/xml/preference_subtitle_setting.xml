@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Subtitle loading strategy">
+        <SwitchPreference
+            android:key="auto_load_same_name_subtitle"
+            android:summary="Automatically load subtitles with the same name in the same folder before playing the video"
+            android:title="Automatically load subtitles with the same name"
+            app:icon="@drawable/ic_player_setting_subtitle_setting" />
+
+        <EditTextPreference
+            android:dialogMessage="\nPriority rules are separated by , and matched in order, such as:\nRule: chs,cht\nResult: example.chs.ass > example.cht.ass"
+            android:key="same_name_subtitle_priority"
+            android:summary="Not set"
+            android:title="Loading priority of subtitles with the same name"
+            app:icon="@drawable/ic_player_setting_subtitle_priority" />
+
+        <SwitchPreference
+            android:key="auto_match_subtitle"
+            android:summary="When subtitles are not specified, automatically match the appropriate network subtitles for the video (only local files are supported)"
+            android:title="Automatically match network subtitles"
+            app:icon="@drawable/ic_player_setting_subtitle_network" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

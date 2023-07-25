@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Barrage loading strategy">
+
+        <SwitchPreference
+            android:key="auto_load_same_name_danmu"
+            android:summary="Before playing the video, automatically load the barrage with the same name in the same folder"
+            android:title="Automatically load barrage with the same name"
+            app:icon="@drawable/ic_player_setting_danmu_load" />
+
+        <SwitchPreference
+            android:key="auto_match_danmu"
+            android:summary="When the barrage is not specified, automatically match the appropriate network barrage for the video (FTP media library is not supported)"
+            android:title="Automatically match network barrage"
+            app:icon="@drawable/ic_player_setting_danmu_load" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其它">
+        <ListPreference
+            android:key="danmu_language"
+            android:summary="Current language: original, specify the language of the barrage when playing"
+            android:title="Bullet chat language"
+            app:icon="@drawable/ic_language" />
+
+        <SwitchPreference
+            android:key="danmu_update_in_choreographer"
+            android:summary="After opening, the barrage can be drawn adaptively according to the screen refresh rate, and the look and feel is better"
+            android:title="The barrage adapts to high refresh rate screens"
+            app:icon="@drawable/ic_player_setting_draw_mothed" />
+
+        <SwitchPreference
+            android:key="danmu_cloud_block"
+            android:summary="According to the cloud data of the bullet, shield the bullet screen"
+            android:title="Bullet screen cloud shield"
+            app:icon="@drawable/ic_player_setting_danmu_block" />
+
+        <SwitchPreference
+            android:key="danmu_debug"
+            android:summary="Display barrage FPS data"
+            android:title="Barrage debugging tool"
+            app:icon="@drawable/ic_player_setting_danmu_debug" />
+    </PreferenceCategory>
+</PreferenceScreen>

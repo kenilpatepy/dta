@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bomb Play concept version</string>
+    <string name="text_dialog_config">OK</string>
+    <string name="text_dialog_cancel">Cancel</string>
+    <string name="title_common_dialog">Prompt</string>
+    <string name="confirm_dialog">OK</string>
+    <string name="cancel_dialog">Cancel</string>
+
+    <string name="text_root_path">root directory</string>
+    <string name="text_empty_data">There is no data</string>
+    <string name="check_not_show_again">Do not show again</string>
+    <string name="tips_loading">Loading...</string>
+
+    <string name="tips_bound_danmu">Danmu</string>
+    <string name="tips_bound_subtitle">subtitle</string>
+
+    <item name="labels_key_data" type="id" />
+    <item name="labels_key_position" type="id" />
+
+    <!-- Item marked as capable of handling focus events -->
+    <string name="focusable_item">tag_focusable_item</string>
+
+    <string name="text_click_update">Update Now</string>
+    <string name="text_click_install">Click to install</string>
+    <string name="text_main_domain">main domain name</string>
+    <string name="test_backup_domain">backup domain name</string>
+</resources>

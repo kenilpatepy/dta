@@ -1,0 +1,70 @@
+<resources>
+    <string name="storage_file_scroll_behavior">com.xyoye.storage_component.ui.weight.StorageFileBehavior</string>
+
+    <string name="app_name">storage_component</string>
+    <string name="hint_web_dav_address">server name or IP address</string>
+    <string name="hint_display_name">Display name (empty)</string>
+    <string name="tips_login_mode">login mode</string>
+    <string name="text_account_login">account login</string>
+    <string name="text_anonymous_login">Anonymous login</string>
+    <string name="hint_login_account">account</string>
+    <string name="hint_login_password">Password</string>
+    <string name="tips_test_connect">connection status</string>
+    <string name="hint_ftp_address">FTP address</string>
+    <string name="hint_port">port</string>
+    <string name="hint_ftp_encoding">encoding</string>
+    <string name="text_ftp_passive_mode">passive connection</string>
+    <string name="text_ftp_active_mode">active connection</string>
+    <string name="text_ftp_connect_mode">connection mode</string>
+    <string name="hint_remote_secret">API key</string>
+    <string name="action_toggle_file_hidden">Show hidden files</string>
+    <string name="hint_ip_address">IP address</string>
+    <string name="hint_smb_path">directory (empty)</string>
+    <string name="text_smb_version">SMB version</string>
+    <string name="text_smb_v2">SMB 2</string>
+    <string name="text_smb_v1">SMB 1</string>
+    <string name="action_remote_scan">Scan code quick entry</string>
+    <string name="action_remote_control">remote controller</string>
+    <string name="action_test_server">Test</string>
+
+    <string name="tips_parse_mode">Data parsing</string>
+    <string name="strict_parse_mode">strict mode</string>
+    <string name="normal_parse_mode">Normal mode</string>
+
+    <string name="text_start_screen_cast_server">Start cast screen service</string>
+    <string name="text_stop_screen_cast_server">Stop cast screen service</string>
+    <string name="text_screencast_connect_type">Connection method</string>
+    <string name="action_scan_connect_screencast">Scan code connection</string>
+    <string name="action_input_connect_screencast">Input connection</string>
+    <string name="action_auto_connect_screencast">Search connection</string>
+    <string name="tips_connect_mode">connection mode</string>
+    <string name="text_password_connect">password connection</string>
+    <string name="text_direct_connect">direct connection</string>
+    <string name="text_not_use">Do not use</string>
+    <string name="tips_password">Password:</string>
+    <string name="tips_port">Port:</string>
+    <string name="tips_ip">IP:</string>
+    <string name="tips_connect_info">Connection information</string>
+    <string name="tips_connect_qe_code">connection code</string>
+    <string name="tips_screencast_receive_service">screencast receiving service</string>
+    <string name="tips_need_confirm_screencast">When the screencast is received, a pop-up window is required to confirm the playback</string>
+    <string name="tips_start_receive_when_start">When the application starts, automatically start the receiving service</string>
+
+    <string name="tips_group_mode">group mode</string>
+    <string name="text_group_by_file">Original file</string>
+    <string name="text_group_by_anime">Fan drama ID</string>
+
+    <string name="text_empty_video">The video file is empty</string>
+
+    <string name="hint_root_path">Root directory path</string>
+    <string name="action_select_root">Select root directory</string>
+
+    <string name="action_play_last_video">Play last watch</string>
+
+    <string name="text_file_search">Search</string>
+    <string name="text_file_sort">sort</string>
+    <string name="text_sort_by_name">name</string>
+    <string name="text_sort_by_size">size</string>
+    <string name="text_sort_order_asc">Ascending order</string>
+    <string name="text_sort_directory_first">directory first</string>
+</resources>

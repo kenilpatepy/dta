@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:icon="@drawable/ic_player_setting_video"
+        android:key="player_type"
+        android:title="player type" />
+    <ListPreference
+        android:icon="@drawable/ic_player_setting_pixel"
+        android:key="pixel_format_type"
+        android:title="pixel format type" />
+    <ListPreference
+        android:icon="@drawable/ic_player_setting_pixel"
+        android:key="vlc_pixel_format_type"
+        android:summary="RGB 16-bit: better performance but poor image quality\nRGB 32-bit: default pixel format\nYUV: best performance but not supported by some devices"
+        android:title="pixel format type" />
+    <SwitchPreference
+        android:key="media_code_c"
+        android:title="hard decoding"
+        app:icon="@drawable/ic_player_setting_codec" />
+    <ListPreference
+        android:key="vlc_hardware_acceleration"
+        android:summary="Disable: Higher stability\nDecoding: May improve performance\nFull: May further improve performance"
+        android:title="hardware acceleration"
+        app:icon="@drawable/ic_player_setting_codec" />
+    <SwitchPreference
+        android:key="media_code_c_h265"
+        android:title="H.265 decoding"
+        app:icon="@drawable/ic_player_setting_codec_h265" />
+    <SwitchPreference
+        android:key="open_sl_es"
+        android:summary="As long as the player still has sound, do not open this setting"
+        android:title="OpenSL ES"
+        app:icon="@drawable/ic_player_setting_opensl" />
+    <ListPreference
+        android:key="vlc_audio_output"
+        android:summary="Change the way VLC outputs audio"
+        android:title="audio output"
+        app:icon="@drawable/ic_player_setting_opensl" />
+    <SwitchPreference
+        android:key="surface_renders"
+        android:summary="Higher video rendering performance after use"
+        android:title="SurfaceView"
+        app:icon="@drawable/ic_player_setting_surface" />
+</PreferenceScreen>

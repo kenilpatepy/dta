@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">local_component</string>
+    <string name="text_search_danmu">Search Danmu</string>
+    <string name="text_local_danmu">Local barrage</string>
+    <string name="text_search_subtitle">Search for subtitles</string>
+    <string name="text_local_subtitle">Local subtitle</string>
+    <string name="text_default_directory">default root directory</string>
+    <string name="text_current_path">Current:</string>
+    <string name="tips_subtitle_zip_name">File name:</string>
+    <string name="hint_subtitle_search">Video name</string>
+    <string name="hint_danmu_search">Fan drama name</string>
+    <string name="tips_input_episode1">Part </string>
+    <string name="tips_input_episode2">episode</string>
+    <string name="tips_ova">Theatrical version</string>
+    <string name="tips_all_result">All results</string>
+    <string name="action_add_play_link">Add play link</string>
+    <string name="action_play_last_video">Play last watch</string>
+    <string name="rule_stream_link_header">key : value ;</string>
+    <string name="text_advanced_link">Advanced Settings</string>
+    <string name="tips_request_header">Request header:</string>
+    <string name="item_remove_history">Remove</string>
+    <string name="item_select_all_history">Select All</string>
+    <string name="action_add_media_storage">Add Media Storage</string>
+    <string name="action_select_torrent_file">Select torrent file</string>
+    <string name="tips_input_magnet_link">Please enter the magnet link</string>
+    <string name="add_new_danmu_download">New download</string>
+    <string name="text_shooter_setting">api setting</string>
+    <string name="tips_api_limit">The search API has a frequency limit, please wait for a while after the limit is exceeded</string>
+    <string name="hint_shooter_secret">shooter (fake) network API key</string>
+    <string name="question_why_need_secret">Q: Why do you need an API key? </string>
+    <string name="answer_why_need_secret">A: The search function is implemented through the open source API of Archer (pseudo)net (https://assrt.net), so the user needs to provide the API key on Archer (pseudo)net to use the search function</string>
+    <string name="question_where_get_secret">Q: Where can I get the API key? </string>
+    <string name="answer_where_get_secret">A: To obtain the API key, you need to log in to the shooter (fake) network and obtain it in the user panel</string>
+    <string name="action_get_secret">Go to the shooter (pseudo) network to get the key</string>
+    <string name="text_default_format_danmu">default</string>
+    <string name="text_simplified_format_danmu">Simplified</string>
+    <string name="text_traditional_format_danmu">Traditional</string>
+    <string name="tips_danmu_history_keyword">Last search</string>
+    <string name="tips_danmu_search_keyword">keyword</string>
+    <string name="tips_danmu_search_file_name">File name (long press to copy)</string>
+
+    <string name="text_search_file">Search file</string>
+    <string name="action_clear_history">Clear playback history</string>
+    <string name="search">Search</string>
+    <string name="tips_search_danmu">Search barrage: Fan drama name + space + episode number</string>
+    <string name="tips_search_subtitle">Search subtitles: Fan drama name</string>
+    <string name="tips_screencast_providing">screencast</string>
+
+    <string name="text_file_sort">sort</string>
+    <string name="text_sort_by_time">time</string>
+    <string name="text_sort_by_name">name</string>
+    <string name="text_sort_order_asc">Ascending order</string>
+
+    <string name="action_unbind_danmu">Remove bullet chat binding</string>
+    <string name="action_select_danmu_file">Select local danmu</string>
+
+    <string name="action_unbind_subtitle">Remove subtitle binding</string>
+    <string name="action_select_subtitle_file">Select local subtitle</string>
+    <string name="action_subtitle_key_setting">subtitle API key</string>
+</resources>

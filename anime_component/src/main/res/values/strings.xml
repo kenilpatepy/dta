@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">anime_component</string>
+    <string name="text_expandable_open">[expandable]</string>
+    <string name="text_anime_rate_tips">minutes</string>
+    <string name="anime_episodes_tips">episode list</string>
+    <string name="anime_detail_more_tips">More tips</string>
+    <string name="anime_detail_recommend_tips">Related recommendations</string>
+
+    <string name="subgroup">subtitle group</string>
+    <string name="source_type">category</string>
+    <string name="magnet_search_hint">Search: Fan drama + space + episode number</string>
+
+    <string name="copyright_resource">The above information is provided by Anime Garden Resource Network (share.dmhy.org)</string>
+    <string name="asc">Positive sequence</string>
+    <string name="anime_status">Status</string>
+    <string name="anime_rating">Rating</string>
+    <string name="anime_type">type</string>
+    <string name="anime_info">Fan drama information</string>
+    <string name="anime_intro">Introduction</string>
+    <string name="anime_recommend">Related recommendations</string>
+    <string name="anime_recommend_more">More recommendations</string>
+    <string name="anime_no_follow">Follow</string>
+    <string name="search_anime_hint">Search: Fan drama name</string>
+    <string name="search_magnet_hint">Search: Fan drama + space + episode number</string>
+    <string name="sort_tips">Sort:</string>
+    <string name="season_tips">Quarter:</string>
+    <string name="year_tips">Year:</string>
+    <string name="search">Search</string>
+    <string name="tips_magnet_type">Classification:</string>
+    <string name="tips_magnet_subgroup">Tips group:</string>
+    <string name="text_domain">node</string>
+    <string name="action_search">Look for fan dramas</string>
+    <string name="action_season_anime">seasonal drama</string>
+    <string name="hint_search_domain_format">Node link format: http(s)://xxx.xxx</string>
+    <string name="question_why_need_domain">Q: Why do you need to search for nodes? </string>
+    <string name="answer_why_need_domain">A: Dantan Play does not provide any search service for fan drama resources. If you need related functions, please obtain search content from third-party services through nodes</string>
+    <string name="question_where_get_domain">Q: How to get the third-party resource search service node? </string>
+    <string name="answer_where_get_domain">A: Bombay does not provide nodes, please search for relevant nodes from the Internet</string>
+    <string name="action_find_domain">Find third-party resource search service nodes</string>
+</resources>

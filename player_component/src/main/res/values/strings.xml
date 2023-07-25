@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">player_component</string>
+    <string name="cant_parse_url">Unable to parse playback URL</string>
+    <string name="video_record">Remember last playback to</string>
+    <string name="video_skip">Continue playing</string>
+    <string name="time_separator">/</string>
+    <string name="send_danmu">Send barrage</string>
+    <string name="test_default_system_time">12:00</string>
+
+    <string name="text_setting_player">player settings</string>
+    <string name="text_orientation_changeable">Open screen flip</string>
+    <string name="text_auto_play_next">Autoplay the next episode</string>
+    <string name="text_video_scale_type">Video scale</string>
+    <string name="text_video_speed">playback speed</string>
+    <string name="text_audio_stream">audio stream</string>
+
+    <string name="text_danmu_setting">Danmu settings</string>
+    <string name="text_source_path_tips">Path:</string>
+    <string name="text_source_change">Change source</string>
+    <string name="text_danmu_size_tips">text size</string>
+    <string name="text_danmu_speed_tips">Danmu speed</string>
+    <string name="text_danmu_alpha_tips">text transparency</string>
+    <string name="text_danmu_project_alpha_tips">text stroke width</string>
+    <string name="text_danmu_offset_tips">Time adjustment (seconds)</string>
+    <string name="text_danmu_offset_reduce">—</string>
+    <string name="hint_danmu_offset">Please enter the offset time</string>
+    <string name="text_danmu_offset_add">+</string>
+    <string name="text_danmu_block">Barrage type blocking</string>
+    <string name="text_danmu_type_mobile">Scrolling barrage</string>
+    <string name="text_danmu_type_bottom">Bottom barrage</string>
+    <string name="text_danmu_type_top">Top barrage</string>
+    <string name="text_danmu_line_limit">Number of scrolling bullet chat lines</string>
+    <string name="text_danmu_line_unlimited">Unlimited</string>
+    <string name="hint_danmu_line_limit">Number of lines</string>
+    <string name="text_danmu_screen_count">Number of scrolling danmu on the same screen</string>
+    <string name="text_danmu_screen_count_unlimited">Unlimited</string>
+    <string name="text_danmu_screen_count_auto">automatic</string>
+    <string name="hit_danmu_screen_count">number</string>
+    <string name="text_danmu_cloud_block">Danmu cloud block</string>
+    <string name="text_danmu_keyword_block">keyword block</string>
+
+    <string name="text_danmu_language_origin">Origin</string>
+    <string name="text_danmu_language_sc">Simplified</string>
+    <string name="text_danmu_language_tc">Traditional Chinese</string>
+
+    <string name="text_setting_subtitle">subtitle setting</string>
+    <string name="text_subtitle_close">Close</string>
+    <string name="text_subtitle_stream">subtitle stream</string>
+    <string name="text_subtitle_track_add">Add</string>
+    <string name="text_subtitle_size_tips">Text size</string>
+    <string name="text_subtitle_color_tips">text color</string>
+    <string name="text_subtitle_stroke_size_tips">stroke width</string>
+    <string name="text_subtitle_stroke_color_tips">stroke color</string>
+    <string name="text_subtitle_offset_tips">Time adjustment</string>
+    <string name="text_subtitle_offset_reduce">—</string>
+    <string name="hint_subtitle_offset">Please enter the offset time</string>
+    <string name="text_subtitle_offset_add">+</string>
+
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_none">None</string>
+    <string name="exo_track_selection_auto">automatic</string>
+    <string name="exo_track_unknown">unknown</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_mono">mono</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">surround sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_role_alternate">Alternate track</string>
+    <string name="exo_track_role_supplementary">Supplementary track</string>
+    <string name="exo_track_role_commentary">narration</string>
+    <string name="exo_track_role_closed_captions">Captions</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="action_add_block_keyword">Add</string>
+    <string name="tips_remove_block_keyword">Click to remove keywords</string>
+    <string name="tips_keyword_block">keyword block</string>
+    <string name="tips_support_regex">Support regular expressions, for example: regex=^[1–9]d*$</string>
+    <string name="tips_danmu_text_size">Danmu text size</string>
+    <string name="tips_danmu_location">Danmu location</string>
+    <string name="tips_danmu_color">Danmu color</string>
+    <string name="hint_send_danmu">Send a friendly barrage to witness the moment</string>
+    <string name="tips_last_play_position">Memory last played to</string>
+    <string name="action_skip_position">continue playing</string>
+    <string name="action_exit_player">Exit player</string>
+    <string name="tips_danmu_manager">Danmu management</string>
+    <string name="tips_danmu_keyword_block">keyword block</string>
+    <string name="action_manager_danmu_block">management</string>
+    <string name="text_reset_video_speed">Reset</string>
+    <string name="select_video_source">Selection</string>
+    <string name="dan">Bomb</string>
+
+    <string name="text_danmu_config">Danmu parameter settings</string>
+    <string name="text_danmu_language_setting">Danmu language setting</string>
+    <string name="text_danmu_block_setting">Barrage blocking settings</string>
+    <string name="text_reset">Reset</string>
+    <string name="not_loaded">Not loaded</string>
+    <string name="remove">Remove</string>
+    <string name="select_local_danmu">Select local danmu</string>
+    <string name="search_network_danmu">Search network danmu</string>
+    <string name="danmu_source">Danmu source</string>
+    <string name="danmu_config">Danmu parameters</string>
+    <string name="danmu_block">Bullet screen blocking</string>
+
+    <string name="text_search">Search</string>
+    <string name="hint_search_danmu">Search barrage: Fan drama name + space + episode number</string>
+
+    <string name="action_aspect_default">Default</string>
+    <string name="action_aspect_match">fill</string>
+    <string name="action_aspect_crop">Crop</string>
+    <string name="action_aspect_origin">Origin</string>
+    <string name="action_aspect_16_9">16:9</string>
+    <string name="action_aspect_4_3">4:3</string>
+
+    <string name="text_select_subtitle">Select local subtitle</string>
+    <string name="action_remove_danmu">Remove Danmu</string>
+    <string name="action_search_network_danmu">Network barrage</string>
+    <string name="action_select_local_danmu">Local Danmu</string>
+
+    <string name="action_offset_reduce_ten">-10</string>
+    <string name="action_offset_reduce_five">-5</string>
+    <string name="action_offset_reduce_half">-0.5</string>
+    <string name="action_offset_add_half">+0.5</string>
+    <string name="action_offset_add_five">+5</string>
+    <string name="action_offset_add_ten">+10</string>
+
+    <string name="text_setting_danmu_style">Danmu style setting</string>
+    <string name="text_setting_subtitle_style">subtitle style setting</string>
+</resources>
